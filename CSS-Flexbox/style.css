@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(89, 95, 100);
+    width: 100%;
+
+
+}
+.flex-header img {
+    max-width:40px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+.flex-header span {
+    color: white;
+}
+.textsection { 
+    display: flex;
+    justify-content: center;
+}
+
+.images-container {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    min-height: 60px;
+    width: 50%;
+    margin: auto;
+}
+
+.images { 
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
